@@ -36,13 +36,13 @@ document.documentElement.style.setProperty(
 );
 
 document.querySelector("footer").innerHTML = `
-  <a href="../index.html#final-project">Work</a>
-  <a href="../about.html">About</a>
-
-  <div id="contact-info">
-    <a href="mailto:${config.student_email}">${config.student_email}</a>
-  </div>
+  document.querySelector("footer").innerHTML = `
+  <a href="/PS70/index.html#final-project">Work</a>
+  <><a href="/PS70/about.html">About</a><div id="contact-info">
+      <a href="mailto:${config.student_email}">${config.student_email}</a>
+    </div></>
 `;
+;
 
 document.querySelectorAll('#student-name').forEach(el => {
   el.innerHTML = `${config.student_name}`;
